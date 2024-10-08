@@ -6,9 +6,9 @@ def team_members_page():
     st.markdown("<h1 class='centered-title'>NFZ Staff</h1>", unsafe_allow_html=True)
 
     team_members = [
-        {"name": "NAME NAME", "position": "Founder", "photo": ".venv/Scripts/NfzImages/NFZ.jpg"},
-        {"name": "NAME NAME", "position": "Founder", "photo": ".venv/Scripts/NfzImages/NFZ.jpg"},
-        {"name": "NAME NAME", "position": "Founder", "photo": ".venv/Scripts/NfzImages/NFZ.jpg"},
+        {"name": "NAME NAME", "position": "Founder", "photo": "NfzImages/NFZ.jpg"},
+        {"name": "NAME NAME", "position": "Founder", "photo": "NfzImages/NFZ.jpg"},
+        {"name": "NAME NAME", "position": "Founder", "photo": "NfzImages/NFZ.jpg"},
         # Add more team members here
     ]
 
