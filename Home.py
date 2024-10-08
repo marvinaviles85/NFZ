@@ -218,7 +218,7 @@ st.markdown("""
     </div>
     """, unsafe_allow_html=True)
 
-st.image(".venv/Scripts/NfzImages/YellowLogo.jpg", caption=" ")
+st.image("NfzImages/YellowLogo.jpg", caption=" ")
 
 # Dropdown menu for pages selection
 # Dropdown menu for pages selection
@@ -256,28 +256,28 @@ if page == "Home":
         "<h1 class='centered-text'>Welcome to the home of NFZ (No Fly Zone)!\n\nExplore our team members, schedule, and photos.</h1>",
         unsafe_allow_html=True)
     # st.write("Welcome to the home page!")
-    st.image(".venv/Scripts/NfzImages/NFZ.jpg", use_column_width=True)
+    st.image("NfzImages/NFZ.jpg", use_column_width=True)
     st.write(
         "<h3 class='centered-text'>Registration is now open for age groups 11U to 18U! Spots are limited, so secure your place today!</h3>",
         unsafe_allow_html=True)
 
     # Add a scrolling image gallery
     images = [
-        {'img': '.venv/Scripts/NfzImages/NFZ1.jpg', 'title': '', 'text': ''},
-        {'img': '.venv/Scripts/NfzImages/NFZ2.jpg', 'title': '', 'text': ''},
-        {'img': '.venv/Scripts/NfzImages/NFZ3.jpg', 'title': '', 'text': ''},
-        {'img': '.venv/Scripts/NfzImages/NFZ4.jpg', 'title': '', 'text': ''},
-        {'img': '.venv/Scripts/NfzImages/NFZ5.jpg', 'title': '', 'text': ''},
-        {'img': '.venv/Scripts/NfzImages/NFZ6.jpg', 'title': '', 'text': ''},
-        {'img': '.venv/Scripts/NfzImages/NFZ7.jpg', 'title': '', 'text': ''},
-        {'img': '.venv/Scripts/NfzImages/NFZ8.jpg', 'title': '', 'text': ''},
-        {'img': '.venv/Scripts/NfzImages/NFZ9.jpg', 'title': '', 'text': ''},
-        {'img': '.venv/Scripts/NfzImages/NFZ10.jpg', 'title': '', 'text': ''},
-        {'img': '.venv/Scripts/NfzImages/NfzCLT.jpg', 'title': '', 'text': ''},
-        {'img': '.venv/Scripts/NfzImages/NfzCLT2.jpg', 'title': '', 'text': ''},
-        {'img': '.venv/Scripts/NfzImages/NfzGloves.jpg', 'title': '', 'text': ''},
-        {'img': '.venv/Scripts/NfzImages/NFZOG.jpg', 'title': '', 'text': ''},
-        {'img': '.venv/Scripts/NfzImages/NFZOG1.jpg', 'title': '', 'text': ''},
+        {'img': 'NfzImages/NFZ1.jpg', 'title': '', 'text': ''},
+        {'img': 'NfzImages/NFZ2.jpg', 'title': '', 'text': ''},
+        {'img': 'NfzImages/NFZ3.jpg', 'title': '', 'text': ''},
+        {'img': 'NfzImages/NFZ4.jpg', 'title': '', 'text': ''},
+        {'img': 'NfzImages/NFZ5.jpg', 'title': '', 'text': ''},
+        {'img': 'NfzImages/NFZ6.jpg', 'title': '', 'text': ''},
+        {'img': 'NfzImages/NFZ7.jpg', 'title': '', 'text': ''},
+        {'img': 'NfzImages/NFZ8.jpg', 'title': '', 'text': ''},
+        {'img': 'NfzImages/NFZ9.jpg', 'title': '', 'text': ''},
+        {'img': 'NfzImages/NFZ10.jpg', 'title': '', 'text': ''},
+        {'img': 'NfzImages/NfzCLT.jpg', 'title': '', 'text': ''},
+        {'img': 'NfzImages/NfzCLT2.jpg', 'title': '', 'text': ''},
+        {'img': 'NfzImages/NfzGloves.jpg', 'title': '', 'text': ''},
+        {'img': 'NfzImages/NFZOG.jpg', 'title': '', 'text': ''},
+        {'img': 'NfzImages/NFZOG1.jpg', 'title': '', 'text': ''},
     ]
 
     carousel(images)
