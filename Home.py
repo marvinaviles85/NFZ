@@ -194,7 +194,7 @@ custom_css = """
 st.set_page_config(
     page_title="NFZ 7v7",
     page_icon="NfzImages/YellowLogo.jpg",
-st.set_page_config(initial_sidebar_state="collapsed")
+    initial_sidebar_state="collapsed")
 
 st.markdown("""
     <style>
