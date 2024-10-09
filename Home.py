@@ -277,8 +277,8 @@ if page == "Home":
         {'img': 'NfzImages/NFZ9.jpg', 'title': '', 'text': ''},
         {'img': 'NfzImages/NFZ10.jpg', 'title': '', 'text': ''},
         {'img': 'NfzImages/NfzCLT.jpg', 'title': '', 'text': ''},
-        {'img': 'NfzImages/NfzCLT2.jpg', 'title': '', 'text': ''},
-        {'img': 'NfzImages/NfzGloves.jpg', 'title': '', 'text': ''},
+        {'img': 'NfzImages/NFZCLT2.jpg', 'title': '', 'text': ''},
+        {'img': 'NfzImages/NfzGloves.png', 'title': '', 'text': ''},
         {'img': 'NfzImages/NFZOG.jpg', 'title': '', 'text': ''},
         {'img': 'NfzImages/NFZOG1.jpg', 'title': '', 'text': ''},
     ]
