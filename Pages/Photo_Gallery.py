@@ -2,8 +2,8 @@ import streamlit as st
 
 # Page title and description
 def photo_gallery_page():
-    st.title("Photo Gallery")
-    st.markdown("<h1 class='centered-title'>Explore Our Gallery</h1>", unsafe_allow_html=True)
+    st.title("Explore Our Gallery")
+    #st.markdown("<h1 class='centered-title'>Explore Our Gallery</h1>", unsafe_allow_html=True)
 
     photos = [
         {"caption": " ", "file": "NfzImages/FSG_Sign.JPG"},
