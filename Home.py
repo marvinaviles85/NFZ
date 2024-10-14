@@ -281,6 +281,21 @@ if page == "Home":
         {'img': 'NfzImages/NfzGloves.png', 'title': '', 'text': ''},
         {'img': 'NfzImages/NFZOG.jpg', 'title': '', 'text': ''},
         {'img': 'NfzImages/NFZOG1.jpg', 'title': '', 'text': ''},
+        {'img': 'NfzImages/AllHandsTeam.JPG', 'title': '', 'text': ''},
+        {'img': 'NfzImages/NFZ_Team_Dinner.JPG', 'title': '', 'text': ''},
+        {'img': 'NfzImages/NFZ_Team_Dinner_2.JPG', 'title': '', 'text': ''},
+        {'img': 'NfzImages/NFZ_13U_RZE.JPG', 'title': '', 'text': ''},
+        {'img': 'NfzImages/NFZ_Red_Zone_Elite.JPG', 'title': '', 'text': ''},
+        {'img': 'NfzImages/NFZ_Red_Zone_Elite_2.JPG', 'title': '', 'text': ''},
+        {'img': 'NfzImages/NFZ_Red_Zone_Elite_3.JPG', 'title': '', 'text': ''},
+        {'img': 'NfzImages/NFZ_Red_Zone_Elite_4.JPG', 'title': '', 'text': ''},
+        {'img': 'NfzImages/NFZ_Action_Shot.JPG', 'title': '', 'text': ''},
+        {'img': 'NfzImages/NFZ_Gloves.JPG', 'title': '', 'text': ''},
+        {'img': 'NfzImages/NFZ_Prayer.JPG', 'title': '', 'text': ''},
+        {'img': 'NfzImages/NFZ_Prayer_2.JPG', 'title': '', 'text': ''},
+        {'img': 'NfzImages/NFZ_13U.JPG', 'title': '', 'text': ''},
+        {'img': 'NfzImages/NFZ_13U_2.JPG', 'title': '', 'text': ''},
+        {'img': 'NfzImages/NFZ_Quads.JPG', 'title': '', 'text': ''},
     ]
 
     carousel(images)
