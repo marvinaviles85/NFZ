@@ -7,6 +7,7 @@ import os
 
 from Pages.Team_Members import team_members_page
 from Pages.Upcoming_Matches import upcoming_matches_page
+from Pages.Photo_Gallery import photo_gallery_page
 #from Pages.Sponsorship_and_Donation import sponsorship_and_donation_page
 #from Pages.Registration import registration_page
 from Pages.Contact_Us import contact_us_page
@@ -227,7 +228,7 @@ st.image("NfzImages/YellowLogo.jpg", caption=" ")
 # Dropdown menu for pages selection
 page = st.selectbox(
     "Select a Page",
-    ["Home", "Upcoming Matches", "Team Members", "Contact Us"]
+    ["Home", "Upcoming Matches", "Team Members", "Photo Gallery", "Contact Us"]
 )
 
 #st.markdown("""
@@ -245,6 +246,8 @@ elif page == "Team Members":
     team_members_page()
 elif page == "Upcoming Matches":
     upcoming_matches_page()
+elif page == "Photo Gallery":
+    photo_gallery_page()
 #elif page == "Sponsorship and Donation":
 #    sponsorship_and_donation_page()
 #elif page == "Registration":
